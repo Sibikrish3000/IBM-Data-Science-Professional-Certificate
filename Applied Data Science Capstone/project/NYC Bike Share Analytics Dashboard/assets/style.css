@@ -1,0 +1,50 @@
+/* General body styling */
+body {
+    background-color: #f0f2f5; /* Light grey background for a modern feel */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+/* Header styling */
+.header {
+    color: #333;
+    text-align: center;
+    border-bottom: 2px solid #dee2e6;
+    padding-bottom: 1rem;
+}
+
+/* Main content cards */
+.content-card {
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.05);
+    border-radius: .5rem;
+}
+
+/* KPI Card styling */
+.kpi-card .card-body {
+    text-align: center;
+    padding: 1.5rem 1rem;
+    transition: transform .2s; /* Add a nice hover effect */
+}
+
+.kpi-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
+}
+
+.kpi-card .card-title {
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #007bff; /* Bootstrap primary color */
+}
+
+.kpi-card .card-body p {
+    font-size: 1rem;
+    color: #6c757d; /* Bootstrap secondary text color */
+    margin-bottom: 0;
+}
+
+/* Style for radio items to make them look better */
+.float-end .form-check {
+    display: inline-block;
+    margin-left: 10px;
+}

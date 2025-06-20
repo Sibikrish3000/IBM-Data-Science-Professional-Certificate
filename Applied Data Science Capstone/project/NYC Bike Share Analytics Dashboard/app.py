@@ -1,4 +1,4 @@
-import dash
+from dash import Dash
 import dash_bootstrap_components as dbc
 
 # Import our modularized components
@@ -13,7 +13,7 @@ MAPBOX_TOKEN = 'pk.eyJ1Ijoic2liaWtyaXNoIiwiYSI6ImNtYzNtdzdxajA2eWQyanF0bHhieDYxb
 
 # --- App Initialization ---
 # The 'assets_folder' is automatically set to 'assets'
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
 
 # --- Data Loading ---

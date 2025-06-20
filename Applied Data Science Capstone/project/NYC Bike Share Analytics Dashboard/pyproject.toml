@@ -9,6 +9,7 @@ dependencies = [
     "dash-bootstrap-components>=2.0.3",
     "datashader>=0.18.1",
     "fastparquet>=2024.11.0",
+    "gunicorn>=23.0.0",
     "holoviews>=1.20.2",
     "pandas>=2.3.0",
     "plotly>=6.1.2",

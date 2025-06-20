@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  dashboard:
+    build: .  # Build the image from the Dockerfile in the current directory
+    container_name: bike_dashboard_app
+    restart: unless-stopped
+    ports:
+      - "8050:8050"  # Map port 8050 on your machine to port 8050 in the container
